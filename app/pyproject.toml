@@ -17,9 +17,11 @@ requests = "^2.26.0"
 cryptography = "^3.4.8"
 SQLAlchemy-Utils = "^0.40.0"
 pillow = "^9.5.0"
+pytest-mock = "^3.10.0"
 httpx = "^0.24.0"
 passlib = "^1.7.4"
 python-multipart = "^0.0.6"
+websockets = "^12.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"
@@ -29,7 +31,6 @@ pytest-mock = "^3.6.1"
 bandit = "^1.7.5"
 pre-commit = "^3.2.2"
 pylint = "^2.17.2"
-pytest-mock = "^3.10.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
